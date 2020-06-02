@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(232, 179, 179);
+    color: rgb(108, 0, 159);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    background-color: aqua;
+}
+
+#oddItem{
+    background-color: rgb(241, 226, 255);
+}
+
+.myDiv{
+    width: 200px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid teal;
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 1px 1px #888888;
+}
+
+.myDiv:hover{
+    box-shadow: 5px 5px 3px 3px #888888;
+    border: 5px solid rgb(0, 96, 96);
+}
