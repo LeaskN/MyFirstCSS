@@ -5,15 +5,17 @@ body{
 
 ul{
     list-style-type: none;
+    background-color: blueviolet;
+}
+ 
+#list{
+    background-color: teal;
 }
 
 .list{
     background-color: aqua;
-}
+} 
 
-#oddItem{
-    background-color: rgb(241, 226, 255);
-}
 
 .myDiv{
     width: 200px;
